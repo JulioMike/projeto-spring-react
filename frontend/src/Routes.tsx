@@ -6,7 +6,7 @@ import Dashboard from "pages/Dashboard";
 const Routes = () => {
   return (
     <BrowserRouter>
-      <Route path="/" component={Home}/>
+      <Route path="/" exact={true} component={Home}/>
       <Route path="/dashboard" component={Dashboard}/>
     </BrowserRouter>
   );
